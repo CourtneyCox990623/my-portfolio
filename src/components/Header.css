@@ -1,0 +1,41 @@
+
+/* src/components/Header.css */
+
+header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav {
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Hero {
+    display: flex;
+    flex-direction: row;
+}
